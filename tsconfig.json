@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true
+  },
+  "files": [
+    "components/board.ts",
+    "components/cell.ts",
+    "components/room.ts",
+  ],
+  // "include": ["components/"],
+  "exclude": ["node_modules/"]
+}

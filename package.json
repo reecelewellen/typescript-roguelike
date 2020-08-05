@@ -1,0 +1,16 @@
+{
+  "name": "rogue-like",
+  "version": "1.0.0",
+  "description": "Rogue like using nodejs",
+  "main": "dungeon.js",
+  "scripts": {
+    "test": "test",
+    "ts": "tsc"
+  },
+  "author": "Reece Lewellen",
+  "license": "MIT",
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "typescript": "^3.9.7"
+  }
+}
