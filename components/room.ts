@@ -1,4 +1,4 @@
-import { Cell } from './cell.js';
+import Cell from './cell';
 
 const left_upper_wall = 0;
 const upper_wall = 1;
@@ -55,7 +55,7 @@ class Room {
         if (j == this.length - 1 && i == this.width - 1) {
           content = right_lower_wall;
         }
-        this.room[j][i] = new Cell(i, j, content);
+        this.room[j][i] = new Cell(i, j);
       }
     }
   }
