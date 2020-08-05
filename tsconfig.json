@@ -3,7 +3,8 @@
     "module": "ES6",
     "noImplicitAny": true,
     "removeComments": false,
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
+    "outDir": "public/"
   },
   "files": [
     "components/board.ts",
